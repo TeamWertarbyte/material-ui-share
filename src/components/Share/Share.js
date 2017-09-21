@@ -42,10 +42,15 @@ export default class Share extends Component {
 }
 
 Share.propTypes = {
+  /** Sets title for content to share. */
   title: PropTypes.string,
+  /** Sets text for content to share. */
   text: PropTypes.string,
+  /** Sets url for content to share. */
   url: PropTypes.string,
+  /** Fired when share action returns an error. */
   onFailure: PropTypes.func,
+  /** Fired when share action succeeded. */
   onSuccess: PropTypes.func,
   /** Override the inline-styles of the root element. */
   style: PropTypes.object
