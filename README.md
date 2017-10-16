@@ -37,7 +37,7 @@ render() {
 }
 ```
 
-### SearchBar Properties
+### Share Properties
 |Name            |Type        |Default     |Description
 |----------------|------------|------------|--------------------------------
 |title           | `string`   |            | Sets title for content to share.
